@@ -19,8 +19,7 @@
     background-image: url("../img/背景图片.jpg");
     background-size: cover;
     background-position: center;
-    justify-content: flex-end;
-    align-items: flex-start;
+
 }
 #erweima{
     height: 40px;
@@ -28,16 +27,75 @@
     background-image: url("../img/二维码.svg");
     background-position: center;
     background-size: cover;
-    margin-right: 5px;
+    margin-left: 220px;
+    margin-bottom: 25px;
+}
+#bottom{
+    margin-left: 12px;
+    align-items: flex-start;
+}
+#touxiang{
+    height: 40px;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+#touxiang-pic{
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/头像-me.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    border:1px solid white;
+}
+#touxaing-name{
+    font-size: 28px;
+    line-height: 40px;
+    color: white;
+}
+#dengji {
+    height: 15px;
+    width: 100%;
+    justify-content: flex-start;
+    margin: 10px 0px;
+}
+#qianming{
+    font-size: 13px;
+    color: white;
+    margin-bottom: 10px;
+}
+.sun{
+    height: 15px;
+    width: 15px;
+    background-image: url("../img/太阳.svg");
+    background-position: center;
+    background-size: cover;
+}
+.moon{
+    height: 15px;
+    width: 15px;
+    background-image: url("../img/月亮.svg");
+    background-position: center;
+    background-size: cover;
+}
+.star{
+    height: 15px;
+    width: 15px;
+    background-image: url("../img/黄五角星.svg");
+    background-position: center;
+    background-size: cover;
 }
 #left-menu-second{
     width: 100%;
     flex:1;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 30px;
 }
 #VIP{
     width: 100%;
+    height: 50px;
     align-items: center;
     justify-content: flex-start;
 }
@@ -50,6 +108,8 @@
 }
 #wallet{
     width: 100%;
+    height: 50px;
+
     align-items: center;
     justify-content: flex-start;
 }
@@ -62,6 +122,8 @@
 }
 #dress{
     width: 100%;
+    height: 50px;
+
     align-items: center;
     justify-content: flex-start;
 }
@@ -74,6 +136,8 @@
 }
 #collect{
     width: 100%;
+    height: 50px;
+
     align-items: center;
     justify-content: flex-start;
 }
@@ -86,6 +150,8 @@
 }
 #photos{
     width: 100%;
+    height: 50px;
+
     align-items: center;
     justify-content: flex-start;
 }
@@ -98,6 +164,8 @@
 }
 #files{
     width: 100%;
+    height: 50px;
+
     align-items: center;
     justify-content: flex-start;
 }
@@ -110,6 +178,8 @@
 }
 #free{
     width: 100%;
+    height: 50px;
+
     align-items: center;
     justify-content: flex-start;
 }
