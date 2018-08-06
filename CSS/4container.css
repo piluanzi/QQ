@@ -1,0 +1,16 @@
+#container{
+
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    /*display: flex;*/
+
+    /*flex-flow: column;*/
+    justify-content: space-between;
+    background-color: #e9dfe5;
+
+}
+::-webkit-scrollbar {
+    display: none;
+}
+

@@ -1,0 +1,309 @@
+#roll{
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    background-color: #f3f3f3;
+    width: 100%;
+    margin: 0px auto;
+    /*justify-content: space-between;*/
+    overflow-y:auto}
+
+
+#dynamic-menu{
+    height:80px;
+    width: 98%;
+    background-color: white;
+    /*display: flex;*/
+    /*flex-flow: row;*/
+    align-items:center;
+    overflow: hidden;
+    margin: 0px 2px 8px 2px;
+    justify-content: space-around;
+}
+#first{
+    height: 60px;
+    width: 50px;
+    /*display: flex;*/
+    /*flex-flow: column;*/
+    justify-content: space-between;
+    align-items: center;
+
+}
+#first-photo{
+    height: 40px;
+    width: 40px;
+    background-image: url("../img/动态黄.svg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+#first-photo-photo{
+    height: 26px;
+    width: 26px;
+    background-image: url("../img/头像3.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-right: -10px;
+    display: flex;
+    justify-content: flex-end;
+}
+#first-photo-photo-dot{
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: crimson;
+    margin-top: -3px;
+    margin-right: -3px;
+}
+#first-text{
+    font-size:11px;
+
+}
+
+#second{
+    height: 60px;
+    width: 50px;
+    display: flex;
+    flex-flow: column;
+
+    justify-content: space-between;
+    align-items: center;
+
+}
+#second-photo{
+    height: 40px;
+    width: 40px;
+    background-image: url("../img/附近.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+#second-text{
+    font-size:11px;
+
+}
+
+#thrid{
+    height: 60px;
+    width: 50px;
+    /*display: flex;*/
+    /*flex-flow: column;*/
+
+    justify-content: space-between;
+    align-items: center;
+
+}
+#thrid-photo{
+    height: 60px;
+    width:55px;
+    background-image: url("../img/兴趣部落.svg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+#thrid-text{
+    font-size:11px;
+
+}
+
+.name-arrow{
+    height:40px ;
+    background-color: white;
+    /*display: flex;*/
+    /*flex-flow: row;*/
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px #dcdddd solid;
+
+}
+.roll-text{
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+.roll-arrow{
+    height:20px;
+    width: 20px;
+    background-image: url("../img/箭头右.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+#option{
+    height: 160px;
+
+}
+#option-left-kandian{
+    /*display: flex;*/
+    /*flex-flow: row;*/
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    margin-left: 10px;
+
+}
+#kandian{
+    height: 20px;
+    width: 20px;
+    background-image: url("../img/看点.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+#option-left-dianjing{
+    /*display: flex;*/
+    /*flex-flow: row;*/
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    margin-left: 10px;
+
+}
+#dianjing{
+    height: 20px;
+    width: 20px;
+    background-image: url("../img/企鹅电竞.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+#option-left-toupiao{
+    /*display: flex;*/
+    /*flex-flow: row;*/
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    margin-left: 10px;
+
+}
+#toupiao{
+    height: 20px;
+    width: 20px;
+    background-image: url("../img/投票.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+#option-left-upin{
+    /*display: flex;*/
+    /*flex-flow: row;*/
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    margin-left: 10px;
+
+}
+#upin{
+    height: 20px;
+    width: 20px;
+    background-image: url("../img/鹅漫U品.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+#option-left-yinyue{
+    /*display: flex;*/
+    /*flex-flow: row;*/
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    margin-left: 10px;
+
+}
+#yinyue{
+    height: 20px;
+    width: 20px;
+    background-image: url("../img/音乐.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+#option-left-yuedu{
+    /*display: flex;*/
+    /*flex-flow: row;*/
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    margin-left: 10px;
+
+}
+#yuedu{
+    height: 20px;
+    width: 20px;
+    background-image: url("../img/阅读.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+#option-left-zhubo{
+    /*display: flex;*/
+    /*flex-flow: row;*/
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    margin-left: 10px;
+
+}
+#zhubo{
+    height: 20px;
+    width: 20px;
+    background-image: url("../img/主播.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+#option-left-yingyongbao{
+    /*display: flex;*/
+    /*flex-flow: row;*/
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    margin-left: 10px;
+
+}
+#yingyognbao{
+    height: 20px;
+    width: 20px;
+    background-image: url("../img/应用宝.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+#option-left-yundong{
+    /*display: flex;*/
+    /*flex-flow: row;*/
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    margin-left: 10px;
+
+}
+#yundong{
+    height: 20px;
+    width: 20px;
+    background-image: url("../img/运动.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+#option-left-ketang{
+    /*display: flex;*/
+    /*flex-flow: row;*/
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    margin-left: 10px;
+
+}
+#ketang{
+    height: 20px;
+    width: 20px;
+    background-image: url("../img/腾讯课堂.svg");
+    background-size: cover;
+    background-position: center;
+}

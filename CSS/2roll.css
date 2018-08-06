@@ -1,0 +1,159 @@
+#roll{
+    flex: 1;
+    /*display: flex;*/
+    /*flex-flow: column;*/
+    background-color: #f3f3f3;
+    width: 100%;
+    margin: 0px auto;
+    justify-content: space-between;
+    overflow-y:auto}
+
+
+#honestly{
+    height:100px;
+    width: 98%;
+    margin: 3px auto;
+    background-color: #f7fcfe;
+    border: 1px solid #f3f3f2 ;
+    align-items:center;
+    overflow: hidden;
+    margin-top: 7px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 1px gray;
+    border-radius: 2px;
+
+}
+
+#honestly-photo{
+    height: 80px;
+    width: 80px;
+    margin-left: 6px;
+    background-image: url("../img/坦白说.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#honestly-text{
+    height: 60px;
+    width: 70%;
+    /*display: flex;*/
+    /*flex-flow: column;*/
+
+}
+
+#honestly-text-top{
+    height: 30px;
+    text-align: left;
+    /*display: flex;*/
+    justify-content: left;
+    align-items: flex-end;
+
+}
+
+#honestly-text-top-text{
+    font-weight:700;
+    color: black;
+    margin-left: 5px;
+}
+#honestly-text-bottom{
+    height: 50px;
+    font-size: 12px;
+    font-family: 宋体;
+    color:gray;
+    /*display: flex;*/
+    /*flex-flow: column;*/
+    justify-content: space-around;
+    margin-left: 5px;
+
+
+}
+
+.name-arrow{
+    height:40px ;
+    background-color: white;
+    /*display: flex;*/
+    /*flex-flow: row;*/
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px #dcdddd solid;
+
+}
+.roll-text{
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 5px;
+    color: black;
+}
+
+.rool-num{
+    margin-right: 7px;font-size: 12px;
+    font-weight: 600;
+    color: #9ba88d;
+
+
+}
+.roll-arrow{
+    height:20px;
+    width: 20px;
+    background-image: url("../img/箭头右.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+.arrow-name{
+    height:40px ;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px #dcdddd solid;
+
+}
+#contacts-menu{
+    height: 35px;
+    margin-top: 10px;
+    /*display: flex;*/
+    /*flex-flow: row;*/
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    border-bottom: 1px #dcdddd solid;
+    line-height: 33px;
+
+}
+
+.contacts-menu{
+    font-size: 13px;
+    color:black;
+    opacity: 0.5;
+    font-weight: 600;
+
+}
+
+#firends{
+    height: 35px;
+    margin-left: 5px;
+    justify-content:center;
+}
+
+.menu-text{
+    height: 35px;
+    line-height: 33px;
+    justify-content: center;
+    align-items: flex-end;
+    color: #007bbb;
+}
+.menu-line{
+    height: 3px;
+    width: 100%;
+    background-color: #007bbb;
+}
+
+#public-num{
+    margin-right: 5px;
+
+}
+
+#arrow-name{
+    height: 160px;
+
+}

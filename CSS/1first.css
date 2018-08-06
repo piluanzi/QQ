@@ -1,0 +1,19 @@
+#container{
+
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    justify-content: space-between;
+    /*background-color: #c8d5bb;*/
+}
+::-webkit-scrollbar {
+    display: none;
+}
+#roll{
+    overflow-x: hidden;
+    overflow-y: auto;
+    flex: 1;
+    width: 100%;
+    background-color:white;
+}
+

@@ -1,0 +1,172 @@
+#left-menu{
+    height: 95%;
+    overflow: hidden;
+    position: fixed;
+    margin-top: 32px;
+    justify-content: space-between;
+
+    width: 270px;
+
+}
+#tm {display: none;}
+#tm:checked ~ #news {transform: translateX(270px);transition: all 1s}
+#tm:checked ~ #roll {transform: translateX(270px);transition: all 1s}
+#tm:checked ~ #menu {transform: translateX(270px);transition: all 1s}
+
+#left-menu-first{
+    height: 150px;
+    width: 270px;
+    background-image: url("../img/背景图片.jpg");
+    background-size: cover;
+    background-position: center;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+#erweima{
+    height: 40px;
+    width: 40px;
+    background-image: url("../img/二维码.svg");
+    background-position: center;
+    background-size: cover;
+    margin-right: 5px;
+}
+#left-menu-second{
+    width: 100%;
+    flex:1;
+    justify-content: flex-start;
+    align-items: center;
+}
+#VIP{
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+}
+#VIP-pic{
+    height: 30px;
+    width: 30px;
+    background-image: url("../img/会员.svg");
+    background-size: cover;
+    background-position: center;
+}
+#wallet{
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+}
+#wallet-pic{
+    height: 30px;
+    width: 30px;
+    background-image: url("../img/钱包.svg");
+    background-size: cover;
+    background-position: center;
+}
+#dress{
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+}
+#dress-pic {
+    height: 30px;
+    width: 30px;
+    background-image: url("../img/个性装扮.svg");
+    background-size: cover;
+    background-position: center;
+}
+#collect{
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+}
+#collect-pic{
+    height: 30px;
+    width: 30px;
+    background-image: url("../img/收藏.svg");
+    background-size: cover;
+    background-position: center;
+}
+#photos{
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+}
+#photos-pic{
+    height: 30px;
+    width: 30px;
+    background-image: url("../img/相册.svg");
+    background-size: cover;
+    background-position: center;
+}
+#files{
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+}
+#files-pic{
+    height: 30px;
+    width: 30px;
+    background-image: url("../img/文件.svg");
+    background-size: cover;
+    background-position: center;
+}
+#free{
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+}
+#free-pic{
+    height: 30px;
+    width: 30px;
+    background-image: url("../img/热点.svg");
+    background-size: cover;
+    background-position: center;
+}
+#left-menu-thrid{
+    width: 100%;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#setting{
+
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+#setting-pic{
+    height: 30px;
+    width: 30px;
+    background-image: url("../img/设置.svg");
+    background-size: cover;
+    background-position: center;
+
+}
+#night{
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+
+}
+#night-pic{
+    height: 30px;
+    width: 30px;
+    background-image: url("../img/夜晚.svg");
+    background-size: cover;
+    background-position: center;
+}
+#wendu{
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    height: 35px;
+
+}
+#wendu-name{
+    height: 30px;
+    font-size: 20px;
+    line-height: 40px;
+    color: #8a8a8a;
+}
+
+

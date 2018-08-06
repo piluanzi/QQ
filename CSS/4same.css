@@ -1,0 +1,49 @@
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+    font-family:宋体;
+
+}
+
+.border {
+    border : 1px solid red;
+}
+
+.xy-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.x-center{
+    display: flex;
+    justify-content: center;
+
+}
+.y-center{
+    display: flex;
+    align-items: center;
+}
+
+.y-bottom{
+    display: flex;
+    align-items:flex-end;
+}
+
+.border-bottom {
+    border-bottom: 1px #dcdddd solid;
+}
+
+.flex-col{
+    display: flex;
+    flex-flow: column;
+}
+
+.flex-row{
+    display: flex;
+    flex-flow: row;
+
+}
+

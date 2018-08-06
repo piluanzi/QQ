@@ -1,0 +1,136 @@
+#content{
+    width: 100%;
+
+
+    background-color: whitesmoke;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    flex-flow: column;
+    margin: auto 2px;
+
+
+}
+
+
+.content {
+    height: 80px;
+    width: 98%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    border-bottom: #dcdddd 1px solid;
+    margin: 0px 0px 1px 0px;
+
+}
+
+
+
+.content-left{
+    width: 60px;
+    height: 60px;
+}
+.content-right{
+    flex: 1;
+    height: 60px;
+    display: flex;
+    flex-flow: column;
+}
+
+.content-touxiang-size{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-flow: row-reverse;
+    margin:5px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.content-right-first{
+    display: flex;
+    flex-flow: row;
+    height: 30px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.content-right-first-name{
+    flex: 1;
+    font-family: 宋体;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 4px;
+}
+
+.content-right-first-time{
+    width: 40px;
+    font-weight: 100;
+    font-size: 13px;
+    text-align: right;
+    color: #c8d5bb;
+}
+
+.content-right-second{
+    height: 30px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    font-size: 14px
+}
+
+.content-class{
+
+    color: orange;
+
+}
+.content-text{
+    flex: 1;
+    height: 30px;
+
+}
+.text-dot{
+    max-width: 200px;
+    font-size: 13px;
+    word-break: keep-all;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.content-num{
+    width: 30px;
+    font-size:12px ;
+    margin-right: 4px;
+    color: #c8d5bb;
+}
+.class-text{
+    display:flex;
+
+}
+
+.content-num-dot-ignore{
+    width: 30px;
+    height: 20px;
+    background-color: #84b9cb;
+    border-radius: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+.content-num-dott{
+    width: 25px;
+    height: 20px;
+    background-color: crimson;
+    border-radius: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+.content-num-dot{
+    width: 20px;
+    height: 20px;
+    background-color: crimson;
+    border-radius: 10px;
+    line-height: 20px;
+    text-align: center;
+}

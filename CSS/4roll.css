@@ -1,0 +1,519 @@
+#roll{
+    overflow: scroll;
+    flex: 1;
+}
+
+#all{
+    /*display: flex;*/
+    /*flex-flow: column;*/
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 220px;
+    background-image: url("../img/繁华城市.jpg");
+    background-size: cover;
+    background-position: top center;
+}
+
+#friend-dynamic{
+    height: 35px;
+    width: 100%;
+    /*display: flex;*/
+    /*flex-flow: row;*/
+    justify-content: space-between;
+    position: fixed;
+    background: linear-gradient(to right,#007bbb, #a0d8ef);
+
+
+
+}
+#friend-dynamic-left{
+    /*display:flex;*/
+    /*flex-flow: row;*/
+    justify-content:space-between;
+    align-items: center;
+    font-weight: 200;
+    color: white;
+}
+
+#friend-dynamic-left-left{
+    height: 30px;
+    width: 30px;
+    background-image: url("../img/方向左.svg");
+    background-position: center;
+    background-size: cover;
+}
+#friend-dynamic-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+
+}
+
+
+#friend-dynamic-right{
+    /*display: flex;*/
+    /*flex-flow: row;*/
+    justify-content: space-between;
+    align-items: center;
+
+}
+#friend-dynamic-right-left{
+    height:30px;
+    width: 30px;
+    background-image: url("../img/信封.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+#friend-dynamic-right-right{
+    height:30px;
+    width: 30px;
+    background-image: url("../img/加号圈.svg");
+    background-size: cover;
+    background-position: center;
+    margin: 0px 6px 0px 15px;
+}
+
+#logo-row{
+    height: 80px;
+    width: 100%;
+    /*display: flex;*/
+    /*flex-flow: row;*/
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+#logo-row-left{
+    height: 70px;
+    width: 80px;
+    /*display: flex;*/
+    /*flex-flow: row;*/
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 11px;
+}
+#logo-row-left-center{
+    height: 50px;
+    width: 70px;
+    border-radius: 50% 50%;
+    background-color: #ee7800;
+    /*display: flex;*/
+    /*flex-flow: row;*/
+    justify-content:center;
+    align-items: center;
+}
+
+#logo-row-left-center-center{
+    height: 70px;
+    width: 70px;
+    background-image: url("../img/头像-me.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-top: -30px;
+    /*display: flex;*/
+    /*flex-flow: row;*/
+    justify-content:center;
+    align-items:flex-end;
+    border: 2px solid whitesmoke;
+}
+
+#logo-row-left-center-center-conter{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+    background-image: url("../img/灰钻石.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: -11px;
+    /*display: flex;*/
+    /*flex-flow: row;*/
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #9ba88d;
+}
+#logo-row-left-center-center-conter-center{
+    font-size: 5px;
+    color:white;
+    font-weight: 700;
+
+}
+
+#logo-row-right{
+
+    /*display: flex;*/
+    /*flex-flow: row;*/
+    justify-content:space-between;
+    align-items: center;
+}
+
+#logo-row-right-left{
+    width: 50px;
+    /*display: flex;*/
+    /*flex-flow: column;*/
+    justify-content: space-between;
+    align-items: center;
+    border-right: 1px solid #afafb0;
+
+
+
+}
+
+#logo-row-right-left-left{
+    height:40px ;
+    width: 40px;
+    background-image: url("../img/访客.svg");
+    background-size: cover;
+    background-position: center;
+    background-color: #f8b500;
+    border-radius: 50%;
+}
+
+#logo-row-right-left-right{
+    /*display: flex;*/
+    /*flex-flow: row;*/
+    justify-content: space-between;
+    align-items: center;
+}
+.five{
+    height: 10px;
+    width: 10px;
+    background-image: url("../img/黄五角星.svg");
+    background-position: center;
+    background-size: cover;
+}
+.five-no{
+    height: 10px;
+    width: 10px;
+    background-image: url("../img/灰五角星.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+#logo-row-right-right{
+    height: 52px;
+    width: 80px;
+    /*display: flex;*/
+    /*flex-flow: column;*/
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 10px;
+    margin-left: 10px;
+
+}
+
+.logo-row-text{
+    /*display: flex;*/
+    /*flex-flow: row;*/
+    align-items: center;
+}
+
+.logo-row-text-write{
+    color: whitesmoke;
+    font-weight:500;
+}
+
+.logo-row-text-other{
+    color: #f8b500;
+    font-weight:500;
+    margin: 0px 5px;
+}
+
+#menu{
+    height: 40px;
+    width: 100%;
+    /*display: flex;*/
+    /*flex-flow: row;*/
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+}
+
+#dynamic{
+    width: 100%;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.dynamic1{
+    width: 100%;
+    margin: 11px 0px 0px 0px;
+    background-color: white;
+}
+.dynamic2{
+    /*display: flex;*/
+    /*flex-flow: column;*/
+    width: 96%;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+
+}
+
+.friend-logo-row{
+    /*display: flex;*/
+    /*flex-flow: column;*/
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+.friend{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    justify-content: flex-start;
+    align-items: center;
+}
+#logo1{
+    background-image:url("../img/头像8.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#logo2{
+    background-image:url("../img/头像9.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#logo3{
+    background-image:url("../img/头像10.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#logo4{
+    background-image:url("../img/头像11.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.friend-name{
+    justify-content: space-around;
+    align-items:flex-start;
+    margin-left: 6px;
+
+}
+.friend-name-first{
+    font-size: 18px;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.friend-name-LV{
+    font-size: 8px;
+    color: gray;
+    height: 18px;
+    width: 18px;
+    background-image: url("../img/黄钻.png");
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 10px;
+
+}
+.friend-name-second{
+    font-size: 12px;
+    color: gray;
+    align-items: center;
+    justify-content: center;
+}
+
+.dynamic-song{
+    margin-left: 15px;
+}
+.dynamic-text{
+    margin-left: 5px;
+}
+.down-arrow{
+    height: 25px;
+    width: 25px;
+    background-image: url("../img/箭头下.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+.dynamic{
+    width: 100%;
+    max-height: 250px;
+    text-align: left;
+    margin-top: 12px;
+    align-items: center;
+    flex: 1;
+
+}
+
+.dynamic-neirong{
+    width: 100%;
+    flex: 3;
+    margin: 5px 0px 3px 0px;
+    color: black;
+    font-size: 15px;
+    font-weight:500;
+}
+
+.dynamic-link{
+    width: 100%;
+    flex: 1;
+    color: blue;
+    margin: 3px auto;
+
+}
+
+.dynamic-video{
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+}
+.dynamic-link a{
+    text-decoration:none;
+}
+
+.dynamic-pic{
+    width: 100%;
+    justify-content:space-around;;
+    align-items: center;
+    margin-bottom: 5px;
+
+}
+
+.dynamic-pic-big1{
+
+    transition: all 0.5s;
+    cursor: pointer;
+    -webkit-transform-origin:0% 0% 0;
+}
+.dynamic-pic-big2{
+
+    transition: all 0.5s;
+    cursor: pointer;
+    -webkit-transform-origin:100% 0% 0;
+}
+.dynamic-pic-big1:hover{
+    transform: scale(1.2);
+}
+.dynamic-pic-big2:hover{
+    transform:scale(1.2);
+}
+.phone-class{
+    width: 100%;
+    flex: 1;
+    font-size: 12px;
+    color: #727171;
+    align-items: center;
+
+}
+.phone{
+    height: 10px;
+    width: 10px;
+    background-image: url("../img/苹果手机.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+.android{
+    height: 10px;
+    width: 10px;
+    background-image: url("../img/安卓手机.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+.snapn-menu {
+    width: 100%;
+    height: 25px;
+    margin: 3px auto;
+    font-size: 12px;
+    color: #727171;
+    align-items: center;
+    justify-content: space-between;
+    margin: 13px auto;
+}
+
+.snapn-menus{
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+
+}
+
+.snapn-menus-snapn{
+    height: 25px;
+    width: 25px;
+    background-image: url("../img/点赞选中.svg");
+    background-position: center;
+    background-size: cover;
+
+}
+.snapn-menus-snapn-no{
+    height: 25px;
+    width: 25px;
+    background-image: url("../img/未点赞.svg");
+    background-position: center;
+    background-size: cover;
+}
+.snapn-menus-comment{
+    height: 25px;
+    width: 25px;
+    background-image: url("../img/评论.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+.snapn-menus-repost{
+    height: 25px;
+    width: 25px;
+    background-image: url("../img/转发.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+.snap{
+    width: 100%;
+    max-height: 74px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 5px auto;
+    font-size: 13px;
+    color: #274a78;
+}
+
+.comment-neirong{
+
+}
+.comment{
+    width: 100%;
+    height: 25px;
+    font-size: 13px;
+    background-color: #fdeff2;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px auto;
+    border-radius: 3px;
+}
+.comment-name{
+    margin-left: 8px;
+    color: black;
+    /*opacity: 0.7;*/
+}
+.comment-pic{
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/调皮.svg");
+    background-size: cover;
+    background-position: center;
+    margin-right: 8px;
+}
